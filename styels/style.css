@@ -11,6 +11,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* header and nav section style */
+
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 3.125rem 15rem;
@@ -30,11 +32,18 @@ nav > h3{
 
 nav > ul{
     display: flex;
-    gap: 1.875rem;
-    color:  #424242;
+    gap: 3.5rem;
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.625rem;
+}
+
+nav > ul > li >a{
+    color:  #424242;
+}
+
+nav > ul > li >a:hover{
+    border-bottom: 2px solid #424242;
 }
 
 /* banner section style */
@@ -72,4 +81,85 @@ nav > ul{
     border: none;
     padding: 1.25rem 1.563rem;
     margin: 2rem 0rem 3rem 0rem;
+}
+
+.btn-explore-more:hover{
+    background-color: black;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+
+/* responsive media screen */
+@media screen and (max-width: 576px){
+    /*responsive header and nav section style */
+    header{
+        padding: 2rem;
+       
+    }
+
+    nav{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+
+    }
+
+    nav > h3{
+        color: #131313;
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+
+    nav > ul{
+        display: flex;
+        justify-content: space-around;
+        gap: 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        te
+
+    }
+
+    /*responsive banner section style */
+
+    .banner-con{
+        max-width: 100%;
+        margin: auto 0;
+        text-align: left;
+    }
+
+    
+    .banner-title{
+        color:  #131313;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: 4rem;
+        
+    }
+
+    .banner-discription{
+        color:  #727272;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.625rem;
+        margin-top: 2rem;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .btn-explore-more{
+        color: #FFF;
+        font-size: 0.9rem;
+        font-weight: 500;
+        border-radius: 0.3rem;
+        background: #FF900E;
+        border: none;
+        padding: 0.512rem 0.650rem;
+        margin: 1rem 0rem 1.5rem 0rem;
+    }
 }
