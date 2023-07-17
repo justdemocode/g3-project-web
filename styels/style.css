@@ -24,7 +24,7 @@ nav{
     align-items: center;
 }
 
-nav > h3{
+nav > h3 >a{
     color: #131313;
     font-size: 2.813rem;
     font-weight: 700;
@@ -33,7 +33,7 @@ nav > h3{
 nav > ul{
     display: flex;
     gap: 3.5rem;
-    font-size: 1.125rem;
+    font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.625rem;
 }
@@ -97,7 +97,6 @@ nav > ul > li >a:hover{
 /* main section style */
 main{
     padding: 3.125rem 15rem;
-    /* background-color: aqua; */
     margin-top: 8.125rem;
     
 }
@@ -223,10 +222,16 @@ main{
 
 /* start-some-facts-section */
 
+.some-facts-container{
+    margin-top: 9rem;
+}
+
+
 .some-facts-title{
     color: #131313;
     font-size: 2.813rem;
     font-weight: 700;
+
 
 }
 
@@ -274,10 +279,11 @@ main{
     text-align: center;
     font-size: 4rem;
     font-weight: 700;
-    margin-top: 9rem;
+    margin-top: 6rem;
 }
 
 .sopnsor-discription{
+    /* width: 33.875rem; */
     color:  #727272;
     text-align: center;
     font-size: 1rem;
@@ -298,6 +304,31 @@ main{
     mix-blend-mode: luminosity;
 }
 /* sponsor-section-end */
+
+
+/* footer-section style */
+footer{
+    padding: 3.125rem 15rem;
+    margin: 5.125rem 0rem;
+    
+}
+
+.copy-right-container{
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+
+}
+
+.copy-right{
+    color:  #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 /* ------------------------------------------------------------------------------------------ */
 
 
