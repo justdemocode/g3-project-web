@@ -97,7 +97,7 @@ nav > ul > li >a:hover{
 /* main section style */
 main{
     padding: 3.125rem 15rem;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-top: 8.125rem;
     
 }
@@ -221,11 +221,83 @@ main{
     line-height: 2.5rem;
 }
 
+/* start-some-facts-section */
+
+.some-facts-title{
+    color: #131313;
+    font-size: 2.813rem;
+    font-weight: 700;
+
+}
+
+.some-facts-discription{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 33.875rem;
+}
+
+.some-facts-box{
+    display: flex;
+    padding: 6.25rem 0rem;
+    justify-content: space-evenly;
+}
+
+.some-box-model-same{
+    border-radius: 0.5rem;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 1.875rem 1.25rem;
+
+}
+
+.box-facts-number{
+    color: #424242;
+    text-align: center;
+    font-size: 2.813rem;
+    font-weight: 600;
+}
+
+.box-facts-title{
+    color:  #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* some-facts-section-end */
 
 
+/* start-sponsor-section */
+.sopnsor-title{
+    color:  #131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 9rem;
+}
 
+.sopnsor-discription{
+    color:  #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 2rem;
+}
 
+.sopnsor-img-container{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    background-color: white;
+    
+}
 
+.sopnsor-img-container >img{
+    mix-blend-mode: luminosity;
+}
+/* sponsor-section-end */
 /* ------------------------------------------------------------------------------------------ */
 
 
